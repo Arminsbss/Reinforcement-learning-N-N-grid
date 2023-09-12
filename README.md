@@ -13,6 +13,7 @@ could implement the algorithm om smaller grids and then try optimizing the
 routes for the given size.
 
 **Concepts**
+
 Worry not if you’re not familiar with Q-Learning! the algorithm iteratively
 tries to enhace a policy in order to maximize the reward. Some concepts you
 might need in the process can be observed below.
