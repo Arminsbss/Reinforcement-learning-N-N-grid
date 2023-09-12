@@ -23,10 +23,12 @@ might need in the process can be observed below.
 step. This decision defines your action which leads to newer state.
 
 • Q-Values : Q-Learning revolves around the concept of Q-Values. The
-Q-Value of a state-action pair represents the expected cumulative reward you can achieve by starting from that state, taking a particular
+Q-Value of a state-action pair represents the expected cumulative reward you can achieve by starting from that state, taking a particular
 action, and then following a specific policy.
+
 • Learning rate : Controls how much the newly-gained information will
 affect your policy
+
 • Discount factor : Controls the importance of future rewards rather
 than the immediate ones.
 
