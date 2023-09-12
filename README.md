@@ -18,8 +18,10 @@ tries to enhace a policy in order to maximize the reward. Some concepts you
 might need in the process can be observed below.
 
 • States : Each cell in the grid is a state.
+
 • Actions : You may choose to move rightwards or upwards at each
 step. This decision defines your action which leads to newer state.
+
 • Q-Values : Q-Learning revolves around the concept of Q-Values. The
 Q-Value of a state-action pair represents the expected cumulative reward you can achieve by starting from that state, taking a particular
 action, and then following a specific policy.
