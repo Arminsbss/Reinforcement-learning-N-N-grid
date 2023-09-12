@@ -16,14 +16,19 @@ routes for the given size.
 Worry not if you’re not familiar with Q-Learning! the algorithm iteratively
 tries to enhace a policy in order to maximize the reward. Some concepts you
 might need in the process can be observed below.
+
 • States : Each cell in the grid is a state.
+
 • Actions : You may choose to move rightwards or upwards at each
 step. This decision defines your action which leads to newer state.
+
 • Q-Values : Q-Learning revolves around the concept of Q-Values. The
 Q-Value of a state-action pair represents the expected cumulative reward you can achieve by starting from that state, taking a particular
 action, and then following a specific policy.
+
 • Learning rate : Controls how much the newly-gained information will
 affect your policy
+
 • Discount factor : Controls the importance of future rewards rather
 than the immediate ones.
 
@@ -31,7 +36,9 @@ than the immediate ones.
 So, you must implement the learning algorithm and improve your policy
 in order to determine the most rewarding route. The update rule you may
 use in order to do so is as follows.
+
 Q(s, a) = (1 − α) Q(s, a) + α(R(s) + γ (max[Q(s′, a′)]))
+
 Where Q represents the Q-Value corresponding to a specific pair of states
 and actions, α is the learning rate, R represents the immediate reward of a
 certain state and γ is the discount factor.
